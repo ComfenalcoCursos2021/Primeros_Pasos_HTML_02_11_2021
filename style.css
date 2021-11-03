@@ -1,0 +1,18 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;1,300&family=Sacramento&display=swap');
+h1, h2, h3, h4, h5, h6{
+    background: var(--lt-color-gray-600);
+    color: var(--lt-color-gray-200);
+    display: inline-block;
+    font-family: 'Josefin Slab', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+p{
+    font-family: 'Sacramento', cursive;
+}
+img{
+    background: var(--colorPrincipal);
+    width: 500px;
+    display: block;
+}
